@@ -1,6 +1,12 @@
 import tensorflow as tf
 import numpy as np
 
+'''
+This code is a library for detecting, classifying chess pieces and returning the FEN string (the position of the chessboard
+required for further operations). The code is only partially implemented, since it will be necessary to add some necessary libraries
+to it that are not currently written.
+'''
+
 def get_model_paths():
     return ['../model/model.pb', join(dirname(__file__), 'model.pb')] #model.pb - trained chess model.
 
