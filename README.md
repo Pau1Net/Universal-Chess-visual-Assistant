@@ -10,3 +10,5 @@ At the moment there are only small developments and a very buggy (very) version 
 If you yourself have some developments in this matter, I will be glad to any suggestions in the comments. I look forward to the day when all this will be completed
 
 
+UPD 18.01.2023
+The work on the project is completed. The source code will be posted soon.
