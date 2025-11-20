@@ -1,3 +1,6 @@
+> [!NOTE]
+> Hey! This is not a reincarnation of the old project, but rather a more detailed description of it, as I felt the previous minimalist description didn't do it justice. I still adhere to a policy of not releasing this kind of material into the public domain; however, for research purposes, I have prepared all the documentation I used during development and the resources that helped me achieve the final result. P.S. I hope you appreciate the emojis (especially those!) and the level of detail in the description, as it took me several days to compile. If you have any questions, feel free to open an issue.
+
 # Universal Chess Visual Assistant
 
 A computer vision-powered chess assistant that provides real-time move recommendations through visual overlay. The system detects chess boards from any source (websites, apps, physical boards), recognizes piece positions using deep learning, and displays optimal moves by drawing arrows directly on the screen.
