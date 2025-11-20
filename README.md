@@ -128,7 +128,6 @@ Universal-Chess-visual-Assistant/
 ├── dchessboard.py         # Board detection & piece recognition (TensorFlow)
 ├── best_move.py           # Move calculation (will integrate Stockfish)
 ├── requirements.txt       # Python dependencies
-├── CLAUDE.md             # Developer documentation for AI assistants
 ├── .gitignore            # Git exclusions
 └── venv/                 # Virtual environment (not in git)
 ```
