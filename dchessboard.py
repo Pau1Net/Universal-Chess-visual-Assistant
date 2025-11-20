@@ -1,5 +1,6 @@
 import tensorflow as tf
 import numpy as np
+from os.path import join, dirname
 
 '''
 This code is a library for detecting, classifying chess pieces and returning the FEN string (the position of the chessboard
@@ -55,12 +56,12 @@ class Board():
         self.probabilities = graph.get_tensor_by_name('tcb/probabilities:0')
 
     def recognize_pieces(self, img, active):
-    tiles, corners = find_grayscale_tiles(img)
-    if tiles is None or len(tiles) == 0: return None, None
+        tiles, corners = find_grayscale_tiles(img)
+        if tiles is None or len(tiles) == 0: return None, None
 
-    guess_prob, guessed = predict_pieces(self, tiles)
-    fen, certanty = construct_fen(guess_prob, guessed, active)
-    return (fen, list(corners)) if certanty > .9 else (None, None)
+        guess_prob, guessed = predict_pieces(self, tiles)
+        fen, certanty = construct_fen(guess_prob, guessed, active)
+        return (fen, list(corners)) if certanty > .9 else (None, None)
   
     def close(self):
         self.sess.close()

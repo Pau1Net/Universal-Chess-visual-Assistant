@@ -1,0 +1,14 @@
+# Core dependencies for Universal Chess Visual Assistant
+
+# IMPORTANT: Requires Python 3.11 or 3.12
+# TensorFlow does not support Python 3.13+ yet
+
+# TensorFlow for chess piece recognition
+# Uses tf.compat.v1 API for backward compatibility
+tensorflow>=2.10.0,<3.0.0
+
+# NumPy for array operations and board representation
+numpy>=1.23.0,<2.0.0
+
+# Pyglet for visual overlay and graphics rendering
+pyglet>=2.0.0,<3.0.0

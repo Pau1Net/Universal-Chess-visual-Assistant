@@ -16,7 +16,8 @@ def update_image(dt):
 
 
 def draw_arrow():
-  # TODO: Implement code to draw the arrow.
+    # TODO: Implement code to draw the arrow.
+    pass
 
 
 pyglet.clock.schedule_interval(update_image, 0.5) #Update time
