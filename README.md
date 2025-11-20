@@ -182,14 +182,6 @@ Currently, the project includes:
 **This Repository:**
 This is a snapshot of the core components with the implementation framework in place. The codebase requires the items in the roadmap above to become fully functional.
 
-## 🤝 Contributing
-
-Contributions are welcome! Areas where help is needed:
-1. Implementing the missing helper functions (board detection)
-2. Stockfish integration
-3. Screen capture and overlay system
-4. Model training and distribution
-5. Cross-platform testing
 
 ## 📄 License
 
