@@ -1,6 +1,3 @@
-# Claude Code documentation
-CLAUDE.md
-
 # Python cache files
 __pycache__/
 *.py[cod]
@@ -46,6 +43,9 @@ dist/
 .env
 *.key
 credentials.json
+
+# Claude Code documentation
+CLAUDE.md
 
 # OS-specific files
 Thumbs.db

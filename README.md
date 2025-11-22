@@ -1,3 +1,6 @@
+> [!NOTE]
+> Hey! This is not a reincarnation of the old project, but rather a more detailed description of it, as I felt the previous minimalist description didn't do it justice. I still adhere to a policy of not releasing this kind of material into the public domain; however, for research purposes, I have prepared all the documentation I used during development and the resources that helped me achieve the final result. P.S. I hope you appreciate the emojis (especially those!) and the level of detail in the description, as it took me several days to compile. If you have any questions, feel free to open an issue.
+
 # Universal Chess Visual Assistant
 
 A computer vision-powered chess assistant that provides real-time move recommendations through visual overlay. The system detects chess boards from any source (websites, apps, physical boards), recognizes piece positions using deep learning, and displays optimal moves by drawing arrows directly on the screen.
@@ -128,7 +131,6 @@ Universal-Chess-visual-Assistant/
 ├── dchessboard.py         # Board detection & piece recognition (TensorFlow)
 ├── best_move.py           # Move calculation (will integrate Stockfish)
 ├── requirements.txt       # Python dependencies
-├── CLAUDE.md             # Developer documentation for AI assistants
 ├── .gitignore            # Git exclusions
 └── venv/                 # Virtual environment (not in git)
 ```
@@ -180,14 +182,6 @@ Currently, the project includes:
 **This Repository:**
 This is a snapshot of the core components with the implementation framework in place. The codebase requires the items in the roadmap above to become fully functional.
 
-## 🤝 Contributing
-
-Contributions are welcome! Areas where help is needed:
-1. Implementing the missing helper functions (board detection)
-2. Stockfish integration
-3. Screen capture and overlay system
-4. Model training and distribution
-5. Cross-platform testing
 
 ## 📄 License
 
